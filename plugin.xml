@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-plist"
+        version="0.0.1">
+
+    <name>cordova-plugin-plist</name>
+    <description>Cordova/PhoneGap plugin for set plist description</description>
+    <license>Apache 2.0 License</license>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="UIFileSharingEnabled">
+          <array>
+            <dict>
+                <key>NSCalendars</key>
+                <string>Save events into the calendar</string>
+            </dict>
+            <dict>
+                <key>NSPhotoLibrary</key>
+                <string>Upload photos from library</string>
+            </dict>
+            <dict>
+                <key>NSBluetoothPeripheral</key>
+                <string>Bluetooth</string>
+            </dict>
+            <dict>
+                <key>NSMicrophone</key>
+                <string>Microphone</string>
+            </dict>
+          </array>
+        </config-file>
+    </platform>
+</plugin>

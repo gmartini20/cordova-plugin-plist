@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-plist",
+  "version": "0.0.1",
+  "description": "Cordova/PhoneGap plugin for set plist description",
+  "cordova": {
+    "id": "cordova.plugin.plist",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmartini20/cordova-plugin-plist"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Guilherme Martini",
+  "license": "Apache 2.0 License",
+  "bugs": {
+    "url": "https://github.com/gmartini20/cordova-plugin-plist/issues"
+  },
+  "homepage": "https://github.com/gmartini20/cordova-plugin-plist#readme"
+}
