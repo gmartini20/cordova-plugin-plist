@@ -10,20 +10,20 @@
         <config-file target="*-Info.plist" parent="UIFileSharingEnabled">
           <array>
             <dict>
-                <key>NSCalendars</key>
-                <string>Save events into the calendar</string>
+                <key>NSCalendarsUsageDescription</key>
+                <string>We would like to save events into the calendar</string>
             </dict>
             <dict>
-                <key>NSPhotoLibrary</key>
-                <string>Upload photos from library</string>
+                <key>NSPhotoLibraryUsageDescription</key>
+                <string>We would like to create a calendar event.</string>
             </dict>
             <dict>
-                <key>NSBluetoothPeripheral</key>
-                <string>Bluetooth</string>
+                <key>NSBluetoothPeripheralUsageDescription</key>
+                <string>We would like to use bluetooth.</string>
             </dict>
             <dict>
-                <key>NSMicrophone</key>
-                <string>Microphone</string>
+                <key>NSMicrophoneUsageDescription</key>
+                <string>We would like to use microphone.</string>
             </dict>
           </array>
         </config-file>
