@@ -7,25 +7,17 @@
     <description>Cordova/PhoneGap plugin for set plist description</description>
     <license>Apache 2.0 License</license>
     <platform name="ios">
-        <config-file target="*-Info.plist" parent="UIFileSharingEnabled">
-          <array>
-            <dict>
-                <key>NSCalendarsUsageDescription</key>
-                <string>We would like to save events into the calendar</string>
-            </dict>
-            <dict>
-                <key>NSPhotoLibraryUsageDescription</key>
-                <string>We would like to create a calendar event.</string>
-            </dict>
-            <dict>
-                <key>NSBluetoothPeripheralUsageDescription</key>
-                <string>We would like to use bluetooth.</string>
-            </dict>
-            <dict>
-                <key>NSMicrophoneUsageDescription</key>
-                <string>We would like to use microphone.</string>
-            </dict>
-          </array>
+        <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
+          <string>We would like to save events into the calendar.</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+          <string>We would like to create a calendar event.</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
+          <string>We would like to use bluetooth.</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
+          <string>We would like to use microphone.</string>
         </config-file>
     </platform>
 </plugin>
