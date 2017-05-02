@@ -11,7 +11,7 @@
           <string>We would like to save events into the calendar.</string>
         </config-file>
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-          <string>We would like to create a calendar event.</string>
+          <string>We would like to access your photo library.</string>
         </config-file>
         <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
           <string>We would like to use bluetooth.</string>
