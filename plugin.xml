@@ -11,13 +11,13 @@
           <string>We would like to save events into the calendar.</string>
         </config-file>
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-          <string>We would like to access your photo library.</string>
+          <string>We would like to access your photo library to take pictures for your profile, expenses and check in proof.</string>
         </config-file>
-        <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
-          <string>We would like to use bluetooth.</string>
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+          <string>This app requires camera access to take pictures for your profile, expenses and check in proof.</string>
         </config-file>
-        <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-          <string>We would like to use microphone.</string>
+        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+          <string>This app requires access to your location in order to show you gigs that are nearby.</string>
         </config-file>
     </platform>
 </plugin>
